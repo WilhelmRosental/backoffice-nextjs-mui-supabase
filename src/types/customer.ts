@@ -1,0 +1,31 @@
+export interface Customer {
+    email: string;
+    lastUpdate: Date;
+    firstname?: string;
+    lastname?: string;
+    silhouette?: string;
+    age?: string;
+    lookingFor?: string[];
+    occasion?: string;
+    height?: string;
+    color?: string;
+    topBudget?: number;
+    coatBudget?: number;
+    bottomBudget?: number;
+    shoesBudget?: number;
+    bagBudget?: number;
+    completeBudget?: number;
+    preferedBrands?: string[];
+    season?: string;
+    styles?: string[];
+    notColors?: string[];
+    notMaterials?: string[];
+    notDetails?: string[];
+    notImprimes?: string[];
+    topSize?: number;
+    bottomSize?: number;
+    shoeSize?: number;
+    heelHeight?: string[];
+    phone?: string;
+    finished?: boolean;
+  }
